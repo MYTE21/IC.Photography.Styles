@@ -1,0 +1,7 @@
+remote_theme: minimal-mistakes@master
+plugins:
+  - jekyll-remote-theme
+title: IC Photography Styles
+destination: An image classification API that classifies 25 different types of photography styles
+author:
+  name: MYTE
