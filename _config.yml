@@ -1,4 +1,4 @@
-remote_theme: minimal-mistakes@master
+remote_theme: mmistakes/minimal-mistakes@master
 plugins:
   - jekyll-remote-theme
 title: IC Photography Styles
