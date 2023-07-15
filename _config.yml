@@ -1,4 +1,4 @@
-remote_theme: connor-baer/autumn@main
+remote_theme: daviddarnes/alembic@main
 plugins:
   - jekyll-remote-theme
 
