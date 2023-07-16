@@ -1,4 +1,4 @@
-remote_theme: amitmerchant1990/reverie@master
+remote_theme: daviddarnes/alembic@main
 plugins:
   - jekyll-remote-theme
 
