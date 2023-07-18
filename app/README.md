@@ -1,13 +1,8 @@
----
-title: Ic Photography Styles
-emoji: 📉
-colorFrom: indigo
-colorTo: yellow
-sdk: gradio
-sdk_version: 3.36.1
-app_file: app.py
-pinned: false
-license: apache-2.0
----
+# Application: IC Photography Styles
+This [app](../app) folder is an exact replica of the original 
+[ic-photography-styles](https://huggingface.co/spaces/myte/ic-photography-styles) application 
+that models photography style.
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+Visit the original application by clicking the link bellow.
+
+Website: [ic-photography-styles](https://huggingface.co/spaces/myte/ic-photography-styles)
