@@ -1,3 +1,6 @@
-# fastai==2.7.10
-# gradio==3.16.0
-# ipywidgets==8.0.7
+jupyter==1.0.0
+fastai==2.7.10
+fastbook==0.0.29
+nbdev==2.3.12
+gradio==3.16.0
+gradio-client==0.2.10
