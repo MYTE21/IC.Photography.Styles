@@ -77,8 +77,8 @@ body {
 }
 
 .file-upload-image {
-    max-height: 40%;
-    max-width: 40%;
+    max-height: 1200%;
+    max-width: 120%;
     margin: auto;
     padding: 20px;
 }
