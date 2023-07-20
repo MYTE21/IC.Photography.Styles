@@ -4,8 +4,8 @@ body {
 
 .file-upload {
     background-color: #eefff0;
-    width: 600px;
-    height: 510px;
+    width: 40%;
+    /*height: 60%;*/
     margin: 0 auto;
 }
 
@@ -80,14 +80,14 @@ body {
 }
 
 .file-upload-image {
-    max-height: 400px;
-    max-width: 400px;
+    max-height: 40%;
+    max-width: 40%;
     margin: auto;
     padding: 20px;
 }
 
 .remove-image {
-    width: 400px;
+    width: 40%;
     margin: 0;
     color: #fff;
     background: #cd4535;
