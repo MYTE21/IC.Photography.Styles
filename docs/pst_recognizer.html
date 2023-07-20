@@ -1,0 +1,43 @@
+---
+title: Photography Styles Recognizer
+layout: page
+---
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Photography Styles Recognizer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <div>
+        <p>Upload an image in the area below to utilize the photography style recognizer. It will specify the image's style.</p>
+        <p>Running Model Accuracy: 81%</p>
+    </div>
+
+    <div class="file-upload">
+        <div class="image-upload-wrap">
+            <input id="photo" class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+            <div class="drag-text">
+                <h3>Drag and Drop<br/>or<br/>Click to Add Image</h3>
+            </div>
+        </div>
+        <div class="file-upload-content">
+            <img class="file-upload-image" src="#" alt="your image" />
+            <div class="image-title-wrap">
+                    <span style="background: #e5e5e5; border-radius: 5px; padding: 2px; font-weight: bold" class="image-title"></span>
+            </div>
+            <div class="image-title-wrap">
+                <button type="button" onclick="removeUpload()" class="remove-image">
+                    Remove <br/>
+                </button>
+            </div>
+            <div id="results"></div>
+        </div>
+    </div>
+
+</body>
+</html>
