@@ -20,7 +20,7 @@ async function loaded(reader) {
 
         results.innerHTML = `
             <h3 style="display: inline">${label} </h3>
-            <progress value="30" max="100">30</progress>
+            <progress value="${percentage.toFixed(2)}" max="100"></progress>
             <b>${percentage.toFixed(2)}%</b>
         `;
     } catch (error) {
