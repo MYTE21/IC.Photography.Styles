@@ -3,7 +3,7 @@ title: Home
 layout: page
 ---
 
-| [Project Overview](#project_overview) | [How It Works](#how_it_works) | [Getting Started](#get_started) | [Contributions](#contributions) | [License](#license) | [Contact](#Contact) |
+| [Project Overview](#project_overview) | [How It Works](#how_it_works) | [Getting Started](#get_started) | [Contributions](#contributions) | [License](#license) | [Contact](#contact) |
 
 # IC Photography Styles
 
