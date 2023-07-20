@@ -113,8 +113,11 @@ To get started with the IC Photography Styles project, follow these steps:
 
 ## License <a name="license"></a>
 
-The IC Photography Styles project is released under the [MIT License](link-to-license). Feel free to use, modify, and distribute the project in accordance with the license terms.
+The [IC Photography Styles](https://github.com/MYTE21/IC.Photography.Styles) project is released under the [MIT License](https://github.com/MYTE21/IC.Photography.Styles/blob/main/LICENSE).
+Feel free to use, modify, and distribute the project in accordance with the license terms.
 
 ## Contact <a name="contact"></a>
 
-For any inquiries or questions regarding the IC Photography Styles project, please contact us at [email@example.com](mailto:email@example.com). We appreciate your interest and feedback.
+For any inquiries or questions regarding the [IC Photography Styles](https://github.com/MYTE21/IC.Photography.Styles) project,
+please contact at [yasmi.tohabar@gmail.com](mailto:yasmi.tohabar@gmail.com).
+We appreciate your interest and feedback.
