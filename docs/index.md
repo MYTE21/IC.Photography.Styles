@@ -3,7 +3,7 @@ title: Home
 layout: page
 ---
 
-| [Project Overview](#project_overview) | [How It Works](#how_it_works) | [Getting Started](#get_started) | [Contributions](#contributions) | [License](#license) | [Contact](#contact) |
+| [Project Overview](#project_overview) | [How It Works](#how_it_works) | [Getting Started](#get_started) | [Contributions](#contributors) | [License](#license) | [Contact](#contact) |
 
 # IC Photography Styles
 
@@ -106,9 +106,8 @@ To get started with the IC Photography Styles project, follow these steps:
     
     Or you can visit [Hugging Face Space: ic-photography-styles](https://huggingface.co/spaces/myte/ic-photography-styles) and play with the most recent model.
 
-## Contributions <a name="contributions"></a>
-
-We welcome contributions to the IC Photography Styles project. If you would like to contribute, please refer to the guidelines outlined in the project repository. Your contributions can help improve the accuracy and performance of the photography style recognition system.
+## Contributors <a name="contributors"></a>
+**Project Owner**
 
 | <img src = "assets/md_yasmi_tohabar.jpg" width="70" alt=""> | Md Yasmi Tohabar | [www.linkedin.com/in/myte/](https://www.linkedin.com/in/myte/) |
 
