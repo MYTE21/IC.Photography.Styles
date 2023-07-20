@@ -2,13 +2,13 @@
 title: Home
 layout: page
 ---
-## Table of Contents
-1. [Project Overview](#project_overview)
-2. [How It Works](#how_it_works)
-3. [Getting Started](#get_started)
-4. [Contributions](#contributions)
-5. [License](#license)
-6. [Contact](#Contact)
+#### Table of Contents
+| SECTION 1                                | SECTION 2                          |
+|------------------------------------------|------------------------------------|
+| 1. [Project Overview](#project_overview) | 1. [Contributions](#contributions) |
+| 2. [How It Works](#how_it_works)         | 2. [License](#license)             |
+| 3. [Getting Started](#get_started)       | 3. [Contact](#Contact)             |
+
 
 # IC Photography Styles
 
