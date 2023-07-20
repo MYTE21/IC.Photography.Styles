@@ -16,9 +16,9 @@ layout: page
 <div class="file-upload">
 
     <div class="image-upload-wrap">
-        <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+        <input id="photo" class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
         <div class="drag-text">
-            <h3>Drag and drop a file or select add Image</h3>
+            <h3>Drag and drop<br/>or<br/>Click to add Image</h3>
         </div>
     </div>
     <div class="file-upload-content">
@@ -40,50 +40,50 @@ layout: page
 
 
 
-    <input id="photo" type="file">
-    <div id="show"></div>
+<!--    <input id="photo" type="file">-->
+<!--    <div id="show"></div>-->
     <div id="results"></div>
 
     <script>
-        async function loaded(reader) {
-            try {
-                const response = await fetch("https://myte-ic-photography-styles.hf.space/run/predict", {
-                    method: "POST",
-                    headers: {
-                        "Content-Type": "application/json"
-                    },
-                    body: JSON.stringify({
-                        data: [reader.result]
-                    })
-                });
-
-                if (!response.ok) {
-                    throw new Error("Error: HTTP status " + response.status);
-                }
-
-                const json = await response.json();
-                const label = json.data[0].label;
-
-                results.innerHTML = `<p>${label}</p>
-                                     <p>${json.data[0].confidences[0].confidence}</p>`;
-            } catch (error) {
-                console.error("An error occurred: ", error);
-            }
-        }
-
-        async function load_image(reader) {
-            show.innerHTML = `<img src="${reader.result}" width="500" alt="">`
-        }
-
-        function read() {
-            const reader = new FileReader();
-
-            reader.addEventListener("load", () => load_image(reader))
-            reader.addEventListener("load", () => loaded(reader))
-            reader.readAsDataURL(photo.files[0]);
-        }
-
-        photo.addEventListener("input", read);
+        // async function loaded(reader) {
+        //     try {
+        //         const response = await fetch("https://myte-ic-photography-styles.hf.space/run/predict", {
+        //             method: "POST",
+        //             headers: {
+        //                 "Content-Type": "application/json"
+        //             },
+        //             body: JSON.stringify({
+        //                 data: [reader.result]
+        //             })
+        //         });
+        //
+        //         if (!response.ok) {
+        //             throw new Error("Error: HTTP status " + response.status);
+        //         }
+        //
+        //         const json = await response.json();
+        //         const label = json.data[0].label;
+        //
+        //         results.innerHTML = `<p>${label}</p>
+        //                              <p>${json.data[0].confidences[0].confidence}</p>`;
+        //     } catch (error) {
+        //         console.error("An error occurred: ", error);
+        //     }
+        // }
+        //
+        // async function load_image(reader) {
+        //     show.innerHTML = `<img src="${reader.result}" width="500" alt="">`
+        // }
+        //
+        // function read() {
+        //     const reader = new FileReader();
+        //
+        //     reader.addEventListener("load", () => load_image(reader))
+        //     reader.addEventListener("load", () => loaded(reader))
+        //     reader.readAsDataURL(photo.files[0]);
+        // }
+        //
+        // photo.addEventListener("input", read);
     </script>
 </body>
 </html>
