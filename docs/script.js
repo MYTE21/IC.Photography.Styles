@@ -53,6 +53,7 @@ function removeUpload() {
     fileUploadInput.replaceWith(clonedFileUploadInput);
 
     $('.file-upload-content').hide();
+    results.innerHTML = "";
     $('.image-upload-wrap').show();
 }
 
