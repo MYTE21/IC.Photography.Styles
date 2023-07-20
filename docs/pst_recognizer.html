@@ -32,7 +32,8 @@ layout: page
 
                 const json = await response.json();
                 const label = json.data[0].label;
-
+                
+                results.innerHTML = ""
                 results.innerHTML += `<p>${label}</p>`;
                 results.innerHTML += `<p>${json.data[0].confidences[0].confidence}</p>`;
             } catch (error) {
