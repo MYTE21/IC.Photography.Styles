@@ -1,16 +1,16 @@
 function readURL(input) {
-    var Thisinput = $(input)
+    let image_input = $(input);
     if (input.files && input.files[0]) {
 
-        var reader = new FileReader();
+        let reader = new FileReader();
 
         reader.onload = function(e) {
-            Thisinput.closest('.file-upload').find('.image-upload-wrap').hide();
+            image_input.closest('.file-upload').find('.image-upload-wrap').hide();
 
-            Thisinput.closest('.file-upload').find('.file-upload-image').attr('src', e.target.result);
-            Thisinput.closest('.file-upload').find('.file-upload-content').show();
+            image_input.closest('.file-upload').find('.file-upload-image').attr('src', e.target.result);
+            image_input.closest('.file-upload').find('.file-upload-content').show();
 
-            Thisinput.closest('.file-upload').find('.image-title').html(input.files[0].name);
+            image_input.closest('.file-upload').find('.image-title').html(input.files[0].name);
         };
 
         reader.readAsDataURL(input.files[0]);
@@ -21,13 +21,19 @@ function readURL(input) {
 }
 
 function removeUpload() {
-    $('.file-upload-input').replaceWith($('.file-upload-input').clone());
+    const fileUploadInput = $('.file-upload-input');
+    const clonedFileUploadInput = fileUploadInput.clone();
+    fileUploadInput.replaceWith(clonedFileUploadInput);
+
     $('.file-upload-content').hide();
     $('.image-upload-wrap').show();
 }
-$('.image-upload-wrap').bind('dragover', function () {
-    $('.image-upload-wrap').addClass('image-dropping');
+
+
+$(document).on('dragover', '.image-upload-wrap', function () {
+    $(this).addClass('image-dropping');
 });
-$('.image-upload-wrap').bind('dragleave', function () {
-    $('.image-upload-wrap').removeClass('image-dropping');
+
+$(document).on('dragleave', '.image-upload-wrap', function () {
+    $(this).removeClass('image-dropping');
 });
