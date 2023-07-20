@@ -2,8 +2,10 @@
 title: Home
 layout: page
 ---
+# Table of Contents
+1. [Contributions](#contributions)
 
-# IC Photography Styles
+# IC Photography Styles <a name=""></a>
 
 [IC Photography Styles](https://github.com/MYTE21/IC.Photography.Styles) is a fascinating and cutting-edge machine learning project that aims to identify and distinguish between a broad spectrum of photographic styles. This project can recognize and categorize 25 different types of photographic genres using the most advanced machine learning algorithms. The project is made to automatically assess and categorize photographs based on their distinctive photographic style, from landscape and portrait photography to abstract and fine art photography.
 
@@ -21,7 +23,7 @@ whether you're a professional photographer
 seeking to improve your craft or a photography enthusiast wanting to explore the world of photography.
 Why not try it out for yourself right now and discover what the future of photography holds?
 
-## Project Overview
+## Project Overview <a name=""></a>
 
 [IC Photography Styles'](https://github.com/MYTE21/IC.Photography.Styles) primary goal is
 to offer an automated method for classifying and identifying various photographic styles.
@@ -61,7 +63,7 @@ by utilizing the strength of machine learning techniques and placing them in one
     6. Abstract Photography
 
 
-## How It Works
+## How It Works <a name=""></a>
 
 [IC Photography Styles](https://github.com/MYTE21/IC.Photography.Styles) uses sophisticated machine learning methods,
 in particular deep learning models,
@@ -71,7 +73,7 @@ the project uses an extensive labeled dataset of several photos reflecting vario
 Extensive training enables the model to recognize the unique traits and patterns that define each style,
 allowing for precise classification of styles.
 
-## Get Started
+## Get Started <a name=""></a>
 
 To get started with the IC Photography Styles project, follow these steps:
 
@@ -81,14 +83,14 @@ To get started with the IC Photography Styles project, follow these steps:
 4. Train the machine learning model using the dataset and the provided training scripts.
 5. Once the model is trained, you can use it to classify and recognize photography styles in new images.
 
-## Contributions
+## Contributions <a name="contributions"></a>
 
 We welcome contributions to the IC Photography Styles project. If you would like to contribute, please refer to the guidelines outlined in the project repository. Your contributions can help improve the accuracy and performance of the photography style recognition system.
 
-## License
+## License <a name=""></a>
 
 The IC Photography Styles project is released under the [MIT License](link-to-license). Feel free to use, modify, and distribute the project in accordance with the license terms.
 
-## Contact
+## Contact <a name=""></a>
 
 For any inquiries or questions regarding the IC Photography Styles project, please contact us at [email@example.com](mailto:email@example.com). We appreciate your interest and feedback.
