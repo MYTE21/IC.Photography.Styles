@@ -16,11 +16,12 @@ async function loaded(reader) {
 
         const json = await response.json();
         const label = json.data[0].label;
+        const percentage = json.data[0].confidences[0].confidence * 100;
 
         results.innerHTML = `
-            <p>${label}</p>
+            <h3 style="display: inline">${label} </h3>
             <progress value="30" max="100">30</progress>
-            ${json.data[0].confidences[0].confidence}
+            <b>${percentage.toFixed(2)}%</b>
         `;
     } catch (error) {
         console.error("An error occurred: ", error);
