@@ -3,7 +3,6 @@ body {
 }
 
 .file-upload {
-    /*background-color: #eefff0;*/
     width: 50%;
     margin: auto;
 }
@@ -78,8 +77,8 @@ body {
 }
 
 .file-upload-image {
-    max-height: 40%;
-    max-width: 40%;
+    max-height: 80%;
+    max-width: 80%;
     margin: auto;
     padding: 20px;
 }
