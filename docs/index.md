@@ -23,11 +23,11 @@ Why not try it out for yourself right now and discover what the future of photog
 
 ## Project Overview
 
-IC Photographic Styles'[IC Photography Styles](https://github.com/MYTE21/IC.Photography.Styles) primary goal is
+[IC Photography Styles'](https://github.com/MYTE21/IC.Photography.Styles) primary goal is
 to offer an automated method for classifying and identifying various photographic styles.
 The project explores significant visual aspects in photographs
 by utilizing the strength of machine learning techniques and placing them in one of the 25 categories listed below:
-`
+
 1. **Natural World Photography**
     1. Landscape Photography
     2. Wildlife Photography
@@ -59,12 +59,17 @@ by utilizing the strength of machine learning techniques and placing them in one
     4. Double Exposure Photography
     5. Surreal Photography
     6. Abstract Photography
-`
 
 
 ## How It Works
 
-IC Photography Styles employs advanced machine learning algorithms, particularly deep learning models, to classify and recognize the photography styles present in images. The project utilizes a large labeled dataset of diverse images representing different photography styles to train the model. Through extensive training, the model learns to extract distinctive features and patterns that characterize each style, enabling accurate style classification.
+[IC Photography Styles](https://github.com/MYTE21/IC.Photography.Styles) uses sophisticated machine learning methods,
+in particular deep learning models,
+to categorize and identify the photography styles visible in photos.
+In order to train the model,
+the project uses an extensive labeled dataset of several photos reflecting various photographic approaches.
+Extensive training enables the model to recognize the unique traits and patterns that define each style,
+allowing for precise classification of styles.
 
 ## Get Started
 
@@ -87,40 +92,3 @@ The IC Photography Styles project is released under the [MIT License](link-to-li
 ## Contact
 
 For any inquiries or questions regarding the IC Photography Styles project, please contact us at [email@example.com](mailto:email@example.com). We appreciate your interest and feedback.
-
-
-
-# IC Photography Styles
-An Image Recognizer Model To Classify <br/>
-25 different types of photography styles:
-1. **Natural World Photography [8]**
-    1. Landscape Photography ✅
-    2. Wildlife Photography ✅
-    3. Underwater Photography ✅
-    4. Astrophotography ✅
-    5. Storm Photography ✅
-    6. Pet Photography ✅
-    7. Macro Photography ✅
-    8. Flower Photography ✅
-2. **Cityscapes and Structures Photography [2]**
-    1. Architecture Photography ✅
-    2. Real estate Photography ✅
-3. **People Photography [5]**
-    1. Portrait Photography ✅
-    2. Event Photography ✅
-    3. Fashion Photography ✅
-    4. Sports Photography ✅
-    5. Documentary Photography ✅
-4. **Lifestyle Photography [2]**
-    1. Street Photography ✅
-    2. Wedding Photography ✅
-5. **Commercial Photography [2]**
-    1. Food Photography ✅
-    2. Product Photography ✅
-6. **Artistic Photography [6]**
-    1. Still Life Photography ✅
-    2. Black and White Photography ✅
-    3. Fine Art Photography ✅
-    4. Double Exposure Photography ✅
-    5. Surreal Photography ✅
-    6. Abstract Photography ✅
