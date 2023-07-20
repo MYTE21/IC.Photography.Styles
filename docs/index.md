@@ -110,7 +110,7 @@ To get started with the IC Photography Styles project, follow these steps:
 
 We welcome contributions to the IC Photography Styles project. If you would like to contribute, please refer to the guidelines outlined in the project repository. Your contributions can help improve the accuracy and performance of the photography style recognition system.
 
-<img src = "assets/icps.png" width="70"> || name || link
+| <img src = "assets/md_yasmi_tohabar.jpg" width="70" alt=""> | Md Yasmi Tohabar | [www.linkedin.com/in/myte/](https://www.linkedin.com/in/myte/) |
 
 ## License <a name="license"></a>
 
