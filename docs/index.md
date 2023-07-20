@@ -25,7 +25,7 @@ Why not try it out for yourself right now and discover what the future of photog
 
 ## Project Overview <a name="project_overview"></a>
 
-[IC Photography Styles'](https://github.com/MYTE21/IC.Photography.Styles) primary goal is
+[IC Photography Styles](https://github.com/MYTE21/IC.Photography.Styles)' primary goal is
 to offer an automated method for classifying and identifying various photographic styles.
 The project explores significant visual aspects in photographs
 by utilizing the strength of machine learning techniques and placing them in one of the 25 categories listed below:
@@ -75,13 +75,36 @@ allowing for precise classification of styles.
 
 ## Get Started <a name="get_started"></a>
 
+`Python version 3.10 or 3.11 is required.`
+
 To get started with the IC Photography Styles project, follow these steps:
 
-1. Clone the project repository from GitHub: [link-to-github-repo]
-2. Set up the required dependencies and libraries as mentioned in the project documentation.
-3. Obtain a dataset of images representing the 25 photography styles or use the provided sample dataset.
-4. Train the machine learning model using the dataset and the provided training scripts.
-5. Once the model is trained, you can use it to classify and recognize photography styles in new images.
+1. Clone the project repository from GitHub: [IC.Photography.Styles](https://github.com/MYTE21/IC.Photography.Styles.git)
+    
+    ```powershell
+    git clone https://github.com/MYTE21/IC.Photography.Styles.git
+    ```
+    
+2. Set up the required dependencies and libraries by executing the following command:
+    
+    ```powershell
+    pip install -r requirements.txt
+    ```
+    
+3. Obtain a dataset of images representing the 25 photography styles by executing the following notebook: [data_preprocessing.ipynb](../notebooks/data_preprocessing.ipynb).
+4. Train the machine learning model using the dataset by executing the following notebook: [training_model_and_cleaning_data.ipynb](../notebooks/training_model_and_cleaning_data.ipynb).
+5. Now, you can identify the photography style of any image by executing the following commands:
+    
+    ```powershell
+    cd .\app\
+    python app.py
+    ```
+    
+    Open [http://127.0.0.1:7860](http://127.0.0.1:7860/) in your browser to play with the most recent model:
+    
+    ![icps_model.png](assets/icps_model.png)
+    
+    Or you can visit [Hugging Face Space: ic-photography-styles](https://huggingface.co/spaces/myte/ic-photography-styles) and play with the most recent model.
 
 ## Contributions <a name="contributions"></a>
 
