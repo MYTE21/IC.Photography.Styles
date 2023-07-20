@@ -23,37 +23,44 @@ Why not try it out for yourself right now and discover what the future of photog
 
 ## Project Overview
 
-The main objective of IC Photography Styles is
-to provide an automated solution for identifying and categorizing various photography styles.
-By leveraging the power of machine learning algorithms,
-this project analyzes key visual features in images
-and assigns them to one of the following 25 photography style categories:
+IC Photographic Styles'[IC Photography Styles](https://github.com/MYTE21/IC.Photography.Styles) primary goal is
+to offer an automated method for classifying and identifying various photographic styles.
+The project explores significant visual aspects in photographs
+by utilizing the strength of machine learning techniques and placing them in one of the 25 categories listed below:
+`
+1. **Natural World Photography**
+    1. Landscape Photography
+    2. Wildlife Photography
+    3. Underwater Photography
+    4. Astrophotography
+    5. Storm Photography
+    6. Pet Photography
+    7. Macro Photography
+    8. Flower Photography
+2. **Cityscapes and Structures Photography**
+    1. Architecture Photography
+    2. Real estate Photography
+3. **People Photography**
+    1. Portrait Photography
+    2. Event Photography
+    3. Fashion Photography
+    4. Sports Photography
+    5. Documentary Photography
+4. **Lifestyle Photography**
+    1. Street Photography
+    2. Wedding Photography
+5. **Commercial Photography**
+    1. Food Photography
+    2. Product Photography
+6. **Artistic Photography**
+    1. Still Life Photography
+    2. Black and White Photography
+    3. Fine Art Photography
+    4. Double Exposure Photography
+    5. Surreal Photography
+    6. Abstract Photography
+`
 
-1. Landscape Photography
-2. Portrait Photography
-3. Street Photography
-4. Wildlife Photography
-5. Macro Photography
-6. Architectural Photography
-7. Documentary Photography
-8. Fashion Photography
-9. Fine Art Photography
-10. Black and White Photography
-11. Travel Photography
-12. Food Photography
-13. Sports Photography
-14. Event Photography
-15. Night Photography
-16. Underwater Photography
-17. Aerial Photography
-18. Still Life Photography
-19. Abstract Photography
-20. Conceptual Photography
-21. Long Exposure Photography
-22. Candid Photography
-23. Experimental Photography
-24. High-Speed Photography
-25. Mobile Photography
 
 ## How It Works
 
