@@ -7,7 +7,7 @@ layout: page
 
 [IC Photography Styles](https://github.com/MYTE21/IC.Photography.Styles) is a fascinating and cutting-edge machine learning project that aims to identify and distinguish between a broad spectrum of photographic styles. This project can recognize and categorize 25 different types of photographic genres using the most advanced machine learning algorithms. The project is made to automatically assess and categorize photographs based on their distinctive photographic style, from landscape and portrait photography to abstract and fine art photography.
 
-![https://www.adobe.com/creativecloud/photography/discover/types-of-photography.html](../assets/icps.png)
+![https://www.adobe.com/creativecloud/photography/discover/types-of-photography.html](assets/icps.png)
 
 In-depth knowledge of the complexities and subtleties of photography was used to build IC Photography Styles.
 An intelligent system
