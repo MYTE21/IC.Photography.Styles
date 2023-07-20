@@ -110,6 +110,8 @@ To get started with the IC Photography Styles project, follow these steps:
 
 We welcome contributions to the IC Photography Styles project. If you would like to contribute, please refer to the guidelines outlined in the project repository. Your contributions can help improve the accuracy and performance of the photography style recognition system.
 
+<img src = "assets/icps.png" width="70"> || name || link
+
 ## License <a name="license"></a>
 
 The IC Photography Styles project is released under the [MIT License](link-to-license). Feel free to use, modify, and distribute the project in accordance with the license terms.
