@@ -1,5 +1,8 @@
 async function loaded(reader) {
     try {
+        const loader = document.getElementById('loader');
+        loader.style.display = 'block';
+
         const response = await fetch("https://myte-ic-photography-styles.hf.space/run/predict", {
             method: "POST",
             headers: {
@@ -18,6 +21,9 @@ async function loaded(reader) {
         const label = json.data[0].label;
         const percentage = json.data[0].confidences[0].confidence * 100;
 
+        loader.style.display = 'none';
+
+        const results = document.getElementById('results');
         results.innerHTML = `
             <h3 style="display: inline">${label} </h3>
             <progress value="${percentage.toFixed(2)}" max="100"></progress>

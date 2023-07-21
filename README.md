@@ -99,3 +99,19 @@ To get started with the IC Photography Styles project, follow these steps:
    Or you can visit [Hugging Face Space: ic-photography-styles](https://huggingface.co/spaces/myte/ic-photography-styles) and play with the most recent model.
 
 # Development Journal
+
+## Dataset Preparation
+Data Collection: Downloaded from DuckDuckGo using term name
+DataLoader: Used fastai DataBlock API to set up the DataLoader.
+Data Augmentation: fastai provides default data augmentation which operates in GPU.
+Details can be found in notebooks/data_prep.ipynb
+
+## Training and Data Cleaning
+Training: Fine-tuned a resnet34 model for 5 epochs (3 times) and got upto ~89% accuracy.
+Data Cleaning: This part took the highest time. Since I collected data from browser, there were many noises. Also, there were images that contained. I cleaned and updated data using fastai ImageClassifierCleaner. I cleaned the data each time after training or finetuning, except for the last time which was the final iteration of the model.
+
+## Model Deployment
+I deployed to model to HuggingFace Spaces Gradio App. The implementation can be found in deployment folder or here.
+
+## API integration with GitHub Pages
+The deployed model API is integrated here in GitHub Pages Website. Implementation and other details can be found in docs folder.
