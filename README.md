@@ -1,6 +1,7 @@
 # IC Photography Styles
-[`🌐 Website: IC Photography Styles`](https://myte21.github.io/IC.Photography.Styles/)
+`🎭 Active`
 
+[`🌐 Website: IC Photography Styles`](https://myte21.github.io/IC.Photography.Styles/)
 [`🤗 Hugging Face Space: ic-photography-styles`](https://huggingface.co/spaces/myte/ic-photography-styles)
 
 [IC Photography Styles](https://github.com/MYTE21/IC.Photography.Styles) is a fascinating and cutting-edge machine learning project that aims to identify and distinguish between a broad spectrum of photographic styles. This project can recognize and categorize 25 different types of photographic genres using the most advanced machine learning algorithms. The project is made to automatically assess and categorize photographs based on their distinctive photographic style, from landscape and portrait photography to abstract and fine art photography.
@@ -124,7 +125,7 @@ model for 5 epochs (3 times) and got upto **~81% accuracy**.
 ### Data Cleaning
 This part took the highest time. Since I collected data from browser, there were many noises. Also, 
 there were images that contained other categories. I cleaned and updated data using [Fast.ai](https://docs.fast.ai/) 
-[ImageClassifierCleaner](https://docs.fast.ai/vision.widgets.html#imageclassifiercleaner:~:text=source-,ImageClassifierCleaner,-ImageClassifierCleaner%20(learn%2C%20opts). 
+[ImageClassifierCleaner](https://docs.fast.ai/vision.widgets.html#imageclassifiercleaner:~:text=source-,ImageClassifierCleaner,-ImageClassifierCleaner%20(learn%2C%20opts)). 
 I cleaned the data each time after training or fine-tuning, except for the last time which was the final iteration of the model.
 
 ## Model Deployment
