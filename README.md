@@ -1,4 +1,8 @@
 # IC Photography Styles
+`🎭 Active`
+
+[`🌐 Website: IC Photography Styles`](https://myte21.github.io/IC.Photography.Styles/)
+[`🤗 Hugging Face Space: ic-photography-styles`](https://huggingface.co/spaces/myte/ic-photography-styles)
 
 [IC Photography Styles](https://github.com/MYTE21/IC.Photography.Styles) is a fascinating and cutting-edge machine learning project that aims to identify and distinguish between a broad spectrum of photographic styles. This project can recognize and categorize 25 different types of photographic genres using the most advanced machine learning algorithms. The project is made to automatically assess and categorize photographs based on their distinctive photographic style, from landscape and portrait photography to abstract and fine art photography.
 
@@ -101,17 +105,50 @@ To get started with the IC Photography Styles project, follow these steps:
 # Development Journal
 
 ## Dataset Preparation
-Data Collection: Downloaded from DuckDuckGo using term name
-DataLoader: Used fastai DataBlock API to set up the DataLoader.
-Data Augmentation: fastai provides default data augmentation which operates in GPU.
-Details can be found in notebooks/data_prep.ipynb
+### Data Collection
+The dataset is created by utilizing the photography-style type name to download images from the [DuckDuckGo](https://duckduckgo.com/) browser. 
+Compiled and saved all the data into the project's [data](data) directory.
+
+### DataLoader
+Used [Fast.ai](https://docs.fast.ai/) [Data block API](https://docs.fast.ai/data.block.html) to set up the [DataLoader](https://docs.fast.ai/data.load.html).
+
+### Data Augmentation
+[Fast.ai](https://docs.fast.ai/) provides default data augmentation which operates in GPU.
+
+Details can be found in [data_preprocessing.ipynb](notebooks/data_preprocessing.ipynb) notebook.
 
 ## Training and Data Cleaning
-Training: Fine-tuned a resnet34 model for 5 epochs (3 times) and got upto ~89% accuracy.
-Data Cleaning: This part took the highest time. Since I collected data from browser, there were many noises. Also, there were images that contained. I cleaned and updated data using fastai ImageClassifierCleaner. I cleaned the data each time after training or finetuning, except for the last time which was the final iteration of the model.
+### Training
+Fine-tuned a [RESNET34](https://pytorch.org/vision/main/models/generated/torchvision.models.resnet34.html) 
+model for 5 epochs (3 times) and got upto **~81% accuracy**.
+
+### Data Cleaning
+This part took the highest time. Since I collected data from browser, there were many noises. Also, 
+there were images that contained other categories. I cleaned and updated data using [Fast.ai](https://docs.fast.ai/) 
+[ImageClassifierCleaner](https://docs.fast.ai/vision.widgets.html#imageclassifiercleaner:~:text=source-,ImageClassifierCleaner,-ImageClassifierCleaner%20(learn%2C%20opts)). 
+I cleaned the data each time after training or fine-tuning, except for the last time which was the final iteration of the model.
 
 ## Model Deployment
-I deployed to model to HuggingFace Spaces Gradio App. The implementation can be found in deployment folder or here.
+I deployed to model to [HuggingFace Spaces Gradio App](https://huggingface.co/spaces/myte/ic-photography-styles). 
+The implementation can be found in [app](app) folder or [🤗 here](https://huggingface.co/spaces/myte/ic-photography-styles/tree/main).
 
 ## API integration with GitHub Pages
-The deployed model API is integrated here in GitHub Pages Website. Implementation and other details can be found in docs folder.
+The deployed model API is integrated here in [🌐 GitHub Pages Website](https://myte21.github.io/IC.Photography.Styles/). 
+Implementation and other details can be found in [docs](docs) folder.
+
+# Contributors
+**Project Owner**
+
+| <img src = "docs/assets/md_yasmi_tohabar.jpg" width="70" alt=""> | Md Yasmi Tohabar | [www.linkedin.com/in/myte/](https://www.linkedin.com/in/myte/) |
+|------------------------------------------------------------------|------------------|----------------------------------------------------------------|
+
+## License <a name="license"></a>
+
+The [IC Photography Styles](https://github.com/MYTE21/IC.Photography.Styles) project is released under the [MIT License](https://github.com/MYTE21/IC.Photography.Styles/blob/main/LICENSE).
+Feel free to use, modify, and distribute the project in accordance with the license terms.
+
+## Contact <a name="contact"></a>
+
+For any inquiries or questions regarding the [IC Photography Styles](https://github.com/MYTE21/IC.Photography.Styles) project,
+please contact at [yasmi.tohabar@gmail.com](mailto:yasmi.tohabar@gmail.com).
+We appreciate your interest and feedback.
