@@ -1,4 +1,7 @@
 # IC Photography Styles
+[`🌐 Website: IC Photography Styles`](https://myte21.github.io/IC.Photography.Styles/)
+
+[`🤗 Hugging Face Space: ic-photography-styles`](https://huggingface.co/spaces/myte/ic-photography-styles)
 
 [IC Photography Styles](https://github.com/MYTE21/IC.Photography.Styles) is a fascinating and cutting-edge machine learning project that aims to identify and distinguish between a broad spectrum of photographic styles. This project can recognize and categorize 25 different types of photographic genres using the most advanced machine learning algorithms. The project is made to automatically assess and categorize photographs based on their distinctive photographic style, from landscape and portrait photography to abstract and fine art photography.
 
